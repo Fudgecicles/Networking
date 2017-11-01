@@ -42,12 +42,17 @@ public class SyncBody : NetworkBehaviour {
         networkIdentity = GetComponent<NetworkIdentity>();
         float numFixedUpdateInMinute = 1.0f / Time.fixedDeltaTime;
         extrapolationTime = fixedUpdatesPerSend * Time.fixedDeltaTime;
+        prevFramePos = body.position;
+    }
+
+    private void Start()
+    {
+        // do this in start because authority is not assigned on awake
         if (!hasAuthority)
         {
             body.isKinematic = true;
             body.interpolation = RigidbodyInterpolation.Interpolate;
         }
-        prevFramePos = body.position;
     }
 
     private void FixedUpdate()

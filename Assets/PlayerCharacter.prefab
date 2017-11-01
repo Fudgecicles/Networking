@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 23699414812602722}
   - component: {fileID: 114876174028769536}
   - component: {fileID: 54534814634714756}
+  - component: {fileID: 114511923392212792}
+  - component: {fileID: 114449237720601148}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -112,6 +114,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114449237720601148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118222910631572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4eae7ab12732445b2e153cb8bf6d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixedUpdatesPerSend: 2
+--- !u!114 &114511923392212792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118222910631572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 238
+    i1: 13
+    i2: 254
+    i3: 221
+    i4: 126
+    i5: 171
+    i6: 2
+    i7: 244
+    i8: 139
+    i9: 168
+    i10: 29
+    i11: 238
+    i12: 100
+    i13: 123
+    i14: 255
+    i15: 147
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114876174028769536
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -126,6 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fixedUpdatesPerSend: 2
+  numInterpolationDelayFrames: 4
+  latencyDecreaseRate: 0.001
+  extrapolate: 0
 --- !u!114 &114511923392212792
 MonoBehaviour:
   m_ObjectHideFlags: 1

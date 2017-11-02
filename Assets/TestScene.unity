@@ -265,8 +265,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1737736427}
-  - component: {fileID: 1737736426}
   - component: {fileID: 1737736425}
+  - component: {fileID: 1737736426}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1737736424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -822479833, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e5799bc56c83144a891b8d2bc20185e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_NetworkPort: 7777
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OfflineScene: 
   m_OnlineScene: 
   m_SpawnPrefabs: []
-  m_CustomConfig: 0
+  m_CustomConfig: 1
   m_MaxConnections: 4
   m_ConnectionConfig:
     m_PacketSize: 1440
@@ -358,11 +358,11 @@ MonoBehaviour:
     m_MaxTimerTimeout: 12000
     m_MinNetSimulatorTimeout: 1
     m_MaxNetSimulatorTimeout: 12000
-  m_Channels: 
+  m_Channels: 0500000000000000
   m_UseWebSockets: 0
   m_UseSimulator: 0
-  m_SimulatedLatency: 1
-  m_PacketLossPercentage: 0
+  m_SimulatedLatency: 148
+  m_PacketLossPercentage: 5
   m_MaxBufferedPackets: 16
   m_AllowFragmentation: 1
   m_MatchHost: mm.unet.unity3d.com
